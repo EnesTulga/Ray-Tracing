@@ -22,8 +22,10 @@ The program is sending rays through 640x480 pixels and detecting collisions with
 **Ro = (Rox, Roy, Roz)**\
 **Rd x t = (Rdx x t, Rdy x t, Rdz x t)**\
 In this case:\
-**(Rox + (Rdx x t), Roy + (Rdy x t), Roz + (Rdz x t)) = (Spx, Spy, Spz)**\
-If we can find a t value, that means ray intersects with sphere.\
+**Rp = (Rox + (Rdx x t), Roy + (Rdy x t), Roz + (Rdz x t)) = (Spx, Spy, Spz)**\
+Then:\
+**(Rpx x Rpx) + (Rpy x Rpy) + (Rpz x Rpz) = (r x r)**\
+If we can find a t value for that equation, that means ray intersects with sphere.\
 But t should be greater than 0.İf we find two t values, we should choose the t value that the smaller than other and greater than zero.
 
 ## Info
