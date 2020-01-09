@@ -10,7 +10,7 @@ The program is sending rays through 640x480 pixels and detecting collisions with
 **Rd   :** Direction Vector of Ray\
 **t    :** Time variable\
 **F(t) :** Ray Function\
-**F(t) = Ro + Rd x t**
+**F(t) = Ro + Rd * t**
 
 ###### Sphere Function
 **r    :** Radius of Sphere\
