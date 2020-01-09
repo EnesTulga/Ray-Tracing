@@ -15,16 +15,16 @@ The program is sending rays through 640x480 pixels and detecting collisions with
 ###### Sphere Function
 **r    :** Radius of Sphere\
 **Sp   :** Sphere Position (Spx, Spy, Spz)\
-**(Spx x Spx) + (Spy x Spy) + (Spz x Spz) = (r x r)**
+**(Spx * Spx) + (Spy * Spy) + (Spz * Spz) = (r * r)**
 
 ###### Ray - Sphere Intersect Detection
 **F(t)** should equal to **(Spx, Spy, Spz)** vector.\
 **Ro = (Rox, Roy, Roz)**\
-**Rd x t = (Rdx x t, Rdy x t, Rdz x t)**\
+**Rd x t = (Rdx * t, Rdy * t, Rdz * t)**\
 In this case:\
-**Rp = (Rox + (Rdx x t), Roy + (Rdy x t), Roz + (Rdz x t)) = (Spx, Spy, Spz)**\
+**Rp = (Rox + (Rdx * t), Roy + (Rdy * t), Roz + (Rdz * t)) = (Spx, Spy, Spz)**\
 Then:\
-**(Rpx x Rpx) + (Rpy x Rpy) + (Rpz x Rpz) = (r x r)**\
+**(Rpx * Rpx) + (Rpy * Rpy) + (Rpz * Rpz) = (r * r)**\
 If we can find a t value for that equation, that means ray intersects with sphere.\
 But t should be greater than 0.İf we find two t values, we should choose the t value that the smaller than other and greater than zero.
 
