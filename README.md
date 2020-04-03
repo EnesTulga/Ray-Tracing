@@ -30,9 +30,9 @@ But t should be greater than 0.İf we find two t values, we should choose the t 
 In this case :\
 **(RPx * RPx) = (ROx * ROx) + (2 * ROx * RDx * t) + (RDx * RDx * t * t)**\
 **(RPy * RPy) = (ROy * ROy) + (2 * ROy * RDy * t) + (RDy * RDy * t * t)**\
-**(RPz * RPz) = (ROz * ROz) + (2 * ROz * RDz * t) + (RDz * RDz * t * t)**\
+**(RPz * RPz) = (ROz * ROz) + (2 * ROz * RDz * t) + (RDz * RDz * t * t)**
 
-If we gather all equations as:
+If we gather all equations as:\
 **A (t * t) + B (t) + C**\
 **A = (RDx * RDx) + (RDy * RDy) + (RDz * RDz)**\
 **B = 2 * ((ROx * RDx) + (ROy * RDy) + (ROz * RDz))**\
