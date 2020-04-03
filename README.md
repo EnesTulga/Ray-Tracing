@@ -1,7 +1,7 @@
 # Ray-Tracing
 
 ## Basic Ray Tracing Project
-The program is sending rays through 640x480 pixels and detecting collisions with spheres. Rays reflect for 1 time and provide calculating light and shadows.
+The program is sending rays through 640x480 pixels and detecting collisions with spheres. Rays reflect for 1 time and provide calculating light and shadows.\
 ![Image description](https://github.com/EnesTulga/Ray-Tracing/blob/master/Results/rayTracing2.png)
 
 ## Formulas
