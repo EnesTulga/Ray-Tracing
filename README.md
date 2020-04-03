@@ -26,7 +26,7 @@ In this case:\
 Then:\
 **(Rpx * Rpx) + (Rpy * Rpy) + (Rpz * Rpz) = (r * r)**\
 If we can find a t value for that equation, that means ray intersects with sphere.\
-But t should be greater than 0.İf we find two t values, we should choose the t value that the smaller than other and greater than zero.
+But t should be greater than 0.İf we find two t values, we should choose the t value that is minimum positive one.
 
 ## Info
 Coded in OpenGL Shader Language / C++.\
